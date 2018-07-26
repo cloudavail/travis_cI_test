@@ -1,5 +1,7 @@
 language: ruby
+# to get a list of known rubies, type
+# rvm list known
 rvm:
-  - latest
+  - ruby-head
 before_install:
   - gem install kubernetes-deploy

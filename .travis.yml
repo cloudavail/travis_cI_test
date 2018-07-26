@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+  - latest
+before_install:
+  - gem install kubernetes-deploy

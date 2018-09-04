@@ -4,7 +4,6 @@ language: ruby
 rvm:
   - ruby-head
 env:
-  global:
   - DEPLOY_TYPE=null
 before_install:
   - gem install kubernetes-deploy
